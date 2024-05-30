@@ -1,0 +1,64 @@
+.sale-property-form {
+    max-width: 50%;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .propertysale-image {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .propertysale-details {
+    margin-top: 1rem;
+    text-align: center;
+  }
+  
+  .primaryText {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    display: block;
+    margin-bottom: 0.5rem;
+  }
+  
+  .orangeText {
+    color: #f39c12;
+    font-size: 1.5rem;
+    font-weight: bold;
+  }
+  
+  .buttonGroup {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+    margin-top: 1.5rem;
+  }
+  
+  .button {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    border-radius: 4px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .button-default {
+    background-color: #ccc;
+    color: #333;
+  }
+  
+  .button-green {
+    background-color: #27ae60;
+    color: #fff;
+  }
+  
+  .button-disabled {
+    background-color: #95a5a6;
+    color: #ecf0f1;
+  }
+  

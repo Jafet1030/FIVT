@@ -1,0 +1,29 @@
+
+properties.css
+.properties-container {
+    gap: 2rem;
+}
+.properties-container .search-bar {
+    width: clamp(20rem, 100%, 50rem); /* Aumenta el ancho máximo de la barra de búsqueda */
+    border-radius: 30px;
+    border: 1px solid rgba(120, 120, 120, 0.374);
+    flex-wrap: nowrap;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px; /* Añade un poco de padding para espaciar los elementos dentro de la barra */
+}
+
+.properties-container .search-bar .button {
+    border-radius: 30px;
+    font-size: 12px;
+    padding: 10px 15px;
+}
+
+.properties-container .search-bar input {
+    width: calc(30% - 10px); /* Aumenta el ancho de los campos de entrada */
+    margin-right: 10px;
+    padding: 10px 15px; /* Aumenta el padding para mejorar la apariencia */
+    border: 1px solid rgba(120, 120, 120, 0.374);
+    border-radius: 10px;
+}
