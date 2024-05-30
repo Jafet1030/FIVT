@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import './value.css';
+import './Value.css';
 import {
     Accordion,
     AccordionItem,
