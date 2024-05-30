@@ -2,7 +2,7 @@ import React from 'react'
 import Header from '../componentes/header/header';
 import Hero from '../componentes/hero/hero';
 import Residencias from '../componentes/residencias/residencias';
-import Value from '../componentes/Value/value';
+import Value from '../componentes/Value/Value';
 import Contact from '../componentes/Contact/Contact';
 import GetStarted from '../componentes/GetStarted/GetStarted';
 import Footer from '../componentes/Footer/Footer';
